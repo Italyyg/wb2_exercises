@@ -3,4 +3,6 @@ let yone=5;
 let xtwo=5;
 let ytwo=9;
 
-distance= math.sqrt(math.pow((xtwo -xone),2) + math.pow ((ytwo- yone),2))
+let distance= Math.sqrt(Math.pow(xtwo -xone, 2) + Math.pow (ytwo- yone, 2));
+
+console.log("Distance between coordinates: ", distance);
