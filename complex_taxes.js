@@ -57,7 +57,7 @@ if (taxFileType === "joint") {
 let taxAmount= grossPay * (taxRate/100);
 let netPay= grossPay-taxAmount;
 
-//display the resulrs to the user
+//display the results to the user
 console.log("You worked " + hoursWorked + " hours this period.");
 console.log("Because you earn $" + payRate.toFixed(2) + " per hour, your gross pay is $" + grossPay);
 console.log("Youre filing status is " + taxFileType );
